@@ -10,7 +10,7 @@ public class Employee {
 	private Integer id;
 	private String name;
 	private Double salary;
-	private String desg;
+	private String desgination;
 	public Integer getId() {
 		return id;
 	}
@@ -29,11 +29,11 @@ public class Employee {
 	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
-	public String getDesg() {
-		return desg;
+	public String getDesgination() {
+		return desgination;
 	}
-	public void setDesg(String desg) {
-		this.desg = desg;
+	public void setDesgination(String desgination) {
+		this.desgination = desgination;
 	}
 	public Employee() {
 		super();
@@ -41,7 +41,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", desg=" + desg + "]";
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", desgination=" + desgination + "]";
 	}
 	
 	

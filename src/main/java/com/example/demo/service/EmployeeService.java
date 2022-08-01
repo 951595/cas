@@ -50,7 +50,7 @@ public class EmployeeService {
 		Employee ep=employeeRepository.findById(e.getId()).orElse(null);
 		ep.setName(e.getName());
 		ep.setSalary(e.getSalary());
-		ep.setDesg(e.getDesg());
+		ep.setDesgination(e.getDesgination());
 		
 		return employeeRepository.save(ep);
 	}
